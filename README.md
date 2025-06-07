@@ -8,8 +8,7 @@ Sample Deployment YAML for httpbin on Kubernetes
 Build a k8s cluster using [KIND](https://kind.sigs.k8s.io/)
 
 ```sh
-cd kind
-kind create cluster --image kindest/node:v1.30.0 --config=kind-cluster.yaml
+kind create cluster --image kindest/node:v1.30.0 --config=kind/kind-cluster.yaml
 ```
 
 Check if the cluster has been created as expected
